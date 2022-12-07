@@ -31,8 +31,8 @@ export default function AboutMe() {
             Javascript (React / Node).
           </p>
           <p>
-            My interests are: product development, cloud computing, sustainable
-            software architecture, open source, IoT and data science.
+            My interests are: writing solid/clean code, system design, cloud computing & sustainable
+            software architecture.
           </p>
         </Item>
         <Item>
