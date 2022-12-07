@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Head } from "next/document"
 
 interface HeadProps {
   page: string;
