@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { Card } from "./components";
 import * as api from "../../api";
 import { IProject } from "../../api/interfaces";
-import { HeadComponent } from "../_shared_";
 
 const Home: NextPage = () => {
   const [projects, setProjects] = useState<IProject[]>([]);
@@ -21,7 +20,6 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <HeadComponent page="Projects"/>
       <Grid
         container
         spacing={2}

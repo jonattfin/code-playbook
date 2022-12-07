@@ -3,7 +3,6 @@ import { Divider, Stack } from "@mui/material";
 import { Bump } from "./components";
 import * as api from "../../api";
 import { useEffect, useState } from "react";
-import { HeadComponent } from "../_shared_";
 
 export default function AboutMe() {
   const [techStack, setTechStack] = useState<any[]>([]);
@@ -18,7 +17,6 @@ export default function AboutMe() {
 
   return (
     <>
-      <HeadComponent page="About me"/>
       <Stack
         divider={<Divider orientation="horizontal" flexItem />}
         spacing={2}
