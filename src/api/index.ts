@@ -3,33 +3,7 @@ import { IProject } from "./interfaces";
 
 export async function fetchProjects(): Promise<IProject[]> {
   return [
-    // {
-    //   title: "Pomodoro Tracker Clone",
-    //   summaryText:
-    //     "The Pomodoro Technique is a time management method that can be used for any task.",
-
-    //   webUrl: "https://pomodoro-tracker.com/",
-    //   imageUrl: "/pomodoro.jpg",
-
-    //   frontend: {
-    //     webUrl: "https://flowometer-web.vercel.app",
-    //     githubUrl: "https://github.com/jonattfin/flowometer-web",
-    //     sonarUrl:
-    //       "https://sonarcloud.io/summary/new_code?id=jonattfin_flowometer-web",
-    //     sonarImageUrl:
-    //       "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_flowometer-web&metric=alert_status",
-    //     technologies: [
-    //       "https://nextjs.org",
-    //       "https://mui.com",
-    //       "https://jestjs.io",
-    //       "https://www.cypress.io",
-    //       "https://immerjs.github.io/immer/",
-    //       "https://echarts.apache.org/",
-    //       "https://vercel.com",
-    //     ],
-    //   },
-    //   backends: [],
-    // },
+   
     {
       title: "Ecosia.org Clone",
       summaryText: `Ecosia is a search engine based in Berlin, Germany. It donates 100% of its revenue to nonprofit organizations focusing on reforestation.
@@ -77,83 +51,110 @@ export async function fetchProjects(): Promise<IProject[]> {
       ],
     },
     {
-      title: "SimplyWall.St Clone",
+      title: "Pomodoro Tracker Clone",
       summaryText:
-        "At Simply Wall St, our mission is to empower every retail investor in the world to make the best decisions possible.",
+        "The Pomodoro Technique is a time management method that can be used for any task.",
 
-      webUrl: "https://simplywall.st",
-      imageUrl: "/stock.jpg",
+      webUrl: "https://pomodoro-tracker.com/",
+      imageUrl: "/pomodoro.jpg",
 
       frontend: {
-        webUrl: "https://simplywallst-clone.vercel.app",
-        githubUrl: "https://github.com/jonattfin/simplywallst-clone",
+        webUrl: "https://flowometer-web.vercel.app",
+        githubUrl: "https://github.com/jonattfin/flowometer-web",
         sonarUrl:
-          "https://sonarcloud.io/summary/new_code?id=jonattfin_simplywallst-clone",
+          "https://sonarcloud.io/summary/new_code?id=jonattfin_flowometer-web",
         sonarImageUrl:
-          "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_simplywallst-clone&metric=alert_status",
+          "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_flowometer-web&metric=alert_status",
         technologies: [
           "https://nextjs.org",
-          "https://storybook.js.org",
           "https://mui.com",
-          "https://nivo.rocks",
-          "https://www.apollographql.com",
+          "https://jestjs.io",
+          "https://www.cypress.io",
+          "https://immerjs.github.io/immer/",
+          "https://echarts.apache.org/",
           "https://vercel.com",
         ],
       },
-      backends: [
-        {
-          webUrl: "https://simplywallst.herokuapp.com/graphql",
-          githubUrl: "https://github.com/jonattfin/simplywallst-clone-api",
-          sonarUrl:
-            "https://sonarcloud.io/project/overview?id=jonattfin_simplywallst-clone-api",
-          sonarImageUrl:
-            "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_simplywallst-clone-api&metric=alert_status",
-          technologies: [
-            "https://nestjs.com",
-            "https://www.apollographql.com",
-            "https://heroku.com",
-          ],
-        },
-      ],
+      backends: [],
     },
-    
     // {
-    //   title: "Pulse.eco Clone",
+    //   title: "SimplyWall.St Clone",
+    //   summaryText:
+    //     "At Simply Wall St, our mission is to empower every retail investor in the world to make the best decisions possible.",
 
-    //   webUrl: "https://pulse.eco",
-    //   imageUrl: "/iot.jpg",
-    //   summaryText: `Pulse.eco is a crowdsourcing platform, which gathers and presents environmental data. Our network of sensor installations and other third-party sources gathers the data and translates them into visual and easy to understand information.`,
+    //   webUrl: "https://simplywall.st",
+    //   imageUrl: "/stock.jpg",
 
     //   frontend: {
-    //     webUrl: "https://pulse-clone.vercel.app",
-
-    //     githubUrl: "https://github.com/jonattfin/pulse-clone-web",
+    //     webUrl: "https://simplywallst-clone.vercel.app",
+    //     githubUrl: "https://github.com/jonattfin/simplywallst-clone",
     //     sonarUrl:
-    //       "https://sonarcloud.io/project/overview?id=jonattfin_pulse-clone-web",
+    //       "https://sonarcloud.io/summary/new_code?id=jonattfin_simplywallst-clone",
     //     sonarImageUrl:
-    //       "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_pulse-clone-web&metric=alert_status",
+    //       "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_simplywallst-clone&metric=alert_status",
     //     technologies: [
     //       "https://nextjs.org",
+    //       "https://storybook.js.org",
     //       "https://mui.com",
-    //       "https://react-leaflet.js.org",
     //       "https://nivo.rocks",
-    //       "https://react-query-v3.tanstack.com",
+    //       "https://www.apollographql.com",
     //       "https://vercel.com",
     //     ],
     //   },
-
     //   backends: [
     //     {
-    //       webUrl: "https://pulse-clone.herokuapp.com/api/",
-    //       githubUrl: "https://github.com/jonattfin/pulse-clone-api",
+    //       webUrl: "https://simplywallst.herokuapp.com/graphql",
+    //       githubUrl: "https://github.com/jonattfin/simplywallst-clone-api",
     //       sonarUrl:
-    //         "https://sonarcloud.io/project/overview?id=jonattfin_pulse-clone-api",
+    //         "https://sonarcloud.io/project/overview?id=jonattfin_simplywallst-clone-api",
     //       sonarImageUrl:
-    //         "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_pulse-clone-api&metric=alert_status",
-    //       technologies: ["https://nestjs.com", "https://heroku.com"],
+    //         "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_simplywallst-clone-api&metric=alert_status",
+    //       technologies: [
+    //         "https://nestjs.com",
+    //         "https://www.apollographql.com",
+    //         "https://heroku.com",
+    //       ],
     //     },
     //   ],
     // },
+    
+    {
+      title: "Pulse.eco Clone",
+
+      webUrl: "https://pulse.eco",
+      imageUrl: "/iot.jpg",
+      summaryText: `Pulse.eco is a crowdsourcing platform, which gathers and presents environmental data. Our network of sensor installations and other third-party sources gathers the data and translates them into visual and easy to understand information.`,
+
+      frontend: {
+        webUrl: "https://pulse-clone.vercel.app",
+
+        githubUrl: "https://github.com/jonattfin/pulse-clone-web",
+        sonarUrl:
+          "https://sonarcloud.io/project/overview?id=jonattfin_pulse-clone-web",
+        sonarImageUrl:
+          "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_pulse-clone-web&metric=alert_status",
+        technologies: [
+          "https://nextjs.org",
+          "https://mui.com",
+          "https://react-leaflet.js.org",
+          "https://nivo.rocks",
+          "https://react-query-v3.tanstack.com",
+          "https://vercel.com",
+        ],
+      },
+
+      backends: [
+        {
+          webUrl: "https://pulse-clone.herokuapp.com/api/",
+          githubUrl: "https://github.com/jonattfin/pulse-clone-api",
+          sonarUrl:
+            "https://sonarcloud.io/project/overview?id=jonattfin_pulse-clone-api",
+          sonarImageUrl:
+            "https://sonarcloud.io/api/project_badges/measure?project=jonattfin_pulse-clone-api&metric=alert_status",
+          technologies: ["https://nestjs.com", "https://heroku.com"],
+        },
+      ],
+    },
   ];
 }
 
